@@ -2,7 +2,7 @@ require "map"
 require "sets"
 
 function love.load()
-  map = _map:create()
+  map = _map:create(100, 100, 80)
 end
 
 function love.update(dt)
